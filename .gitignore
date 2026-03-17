@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# User financial data (SENSITIVE)
+data/source/**
+!data/source/
+!data/source/*/
+!data/source/**/.gitkeep
+data/output/
+
+# macOS
+.DS_Store
+
+# Claude Code local files
+.claude/settings.local.json
+.claude/plans/
+
+# Editor
+*.swp
+*~
